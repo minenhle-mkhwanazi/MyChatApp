@@ -27,7 +27,7 @@ public class AccountCreation {
             return;  
     }
     //Password Validation
-    System.out.print("Enter password:");
+    System.out.print("Enter password:"); 
     password = input.nextLine();
     
     if(login.checkPassword()){
