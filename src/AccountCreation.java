@@ -1,5 +1,5 @@
 
-import java.util.Scanner;
+import java.util.Scanner; 
 import java.util.regex.Pattern;
 
 public class AccountCreation {
@@ -10,7 +10,7 @@ public class AccountCreation {
      String password;
      String cellPhoneNumber;
      
-     public void register (String register) {      
+     public void register (String register) {   
          
          Login login = new Login(username,password,register);
      
